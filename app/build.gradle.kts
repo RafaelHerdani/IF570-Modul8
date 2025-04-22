@@ -52,6 +52,8 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(platform("com.google.firebase:firebase-bom:33.12.0"))
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.7")
+    implementation(libs.firebase.common.ktx)
+    implementation(libs.firebase.firestore.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
